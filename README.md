@@ -20,15 +20,15 @@
 
   ## Dokumentation och bra reads
   ### Generellt om Swift
-  https://developer.apple.com/documentation
+   - https://developer.apple.com/documentation
   ### Mer specifikt vad vi kommer använda oss av
   #### API:er
-  https://developer.apple.com/documentation/coreml
-  https://developer.apple.com/documentation/avfoundation
-  https://developer.apple.com/documentation/avkit
-  https://developer.apple.com/documentation/uikit
+  - https://developer.apple.com/documentation/coreml
+  - https://developer.apple.com/documentation/avfoundation
+  - https://developer.apple.com/documentation/avkit
+  - https://developer.apple.com/documentation/uikit
 
   #### Tutorials, etc som kan vara användbara
-  https://developer.apple.com/documentation/coreml/integrating_a_core_ml_model_into_your_app
-  https://www.analyticsvidhya.com/blog/2017/09/build-machine-learning-iphone-apple-coreml/
-  https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a (lista på saker Inception-v3 bör känna igen)
+  - https://developer.apple.com/documentation/coreml/integrating_a_core_ml_model_into_your_app
+  - https://www.analyticsvidhya.com/blog/2017/09/build-machine-learning-iphone-apple-coreml/
+  - https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a (lista på saker Inception-v3 bör känna igen)
