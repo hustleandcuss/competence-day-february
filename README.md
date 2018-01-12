@@ -8,7 +8,7 @@
   ## Utgångsläge
   I det här repot finns en grund till ett GUI som ni kan använda/bygga vidare på ifall ni vill slippa pilla med det, ni kan även välja att börja helt från scratch. Låt fantasin och creativiteten flöda!
 
-  Jag har även lagt till en utav de CoreML modeller (Inception-v3) som finns i länken här ovanför, det går jättebra att byta till någon av de andra om det skulle önskas.
+  En utav de CoreML modeller (Inception-v3), som finns i länken här ovanför, är också tillagd i projektet, det går jättebra att byta till någon av de andra om det skulle önskas.
 
   ## Förberedelser som kan vara bra att göra innan kompetensdagen
   1. Ha en Mac att koda på
