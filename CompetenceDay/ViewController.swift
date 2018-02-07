@@ -67,7 +67,6 @@ class ViewController: UIViewController {
         
         // This creates a timer for the game play
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { (timer) in
-            print("In timer")
             guard self.remaningTime != 0 else {
                 timer.invalidate()
                 self.endGame()
