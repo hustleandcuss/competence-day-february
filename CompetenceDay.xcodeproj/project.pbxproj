@@ -14,6 +14,8 @@
 		735DBF942008E44A00FE07BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735DBF922008E44A00FE07BE /* LaunchScreen.storyboard */; };
 		735DBF9F2008E44A00FE07BE /* CompetenceDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DBF9E2008E44A00FE07BE /* CompetenceDayTests.swift */; };
 		735DBFAA2008E44B00FE07BE /* CompetenceDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DBFA92008E44B00FE07BE /* CompetenceDayUITests.swift */; };
+		73A788A52028E96500F3036B /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 73A788A32028E71C00F3036B /* Inceptionv3.mlmodel */; };
+		73A788A72028EB1800F3036B /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A788A62028EB1800F3036B /* Objects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		735DBFA52008E44B00FE07BE /* CompetenceDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompetenceDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		735DBFA92008E44B00FE07BE /* CompetenceDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetenceDayUITests.swift; sourceTree = "<group>"; };
 		735DBFAB2008E44B00FE07BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A788A32028E71C00F3036B /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		73A788A62028EB1800F3036B /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		735DBF882008E44A00FE07BE /* CompetenceDay */ = {
 			isa = PBXGroup;
 			children = (
+				73A788A32028E71C00F3036B /* Inceptionv3.mlmodel */,
 				735DBF892008E44A00FE07BE /* AppDelegate.swift */,
 				735DBF8B2008E44A00FE07BE /* ViewController.swift */,
+				73A788A62028EB1800F3036B /* Objects.swift */,
 				735DBF8D2008E44A00FE07BE /* Main.storyboard */,
 				735DBF902008E44A00FE07BE /* Assets.xcassets */,
 				735DBF922008E44A00FE07BE /* LaunchScreen.storyboard */,
@@ -187,6 +193,9 @@
 		735DBF7E2008E44A00FE07BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Olivia Lennerö";
@@ -259,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A788A52028E96500F3036B /* Inceptionv3.mlmodel in Sources */,
 				735DBF8C2008E44A00FE07BE /* ViewController.swift in Sources */,
+				73A788A72028EB1800F3036B /* Objects.swift in Sources */,
 				735DBF8A2008E44A00FE07BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
