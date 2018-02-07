@@ -15,9 +15,11 @@ class ViewController: UIViewController {
     @IBOutlet var scoreLabel: UILabel!
     @IBOutlet var highScoreLabel: UILabel!
     @IBOutlet var startButton: UIButton!
+    @IBOutlet var skipButton: UIButton!
     @IBOutlet var objectLabel: UILabel!
     @IBOutlet var topView: UIView!
     @IBOutlet var bottomView: UIView!
+    @IBOutlet var timeLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
