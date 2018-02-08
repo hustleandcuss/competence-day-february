@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         
         // This function runs when the view loads
         // Here we need to set:
-        // 1. The scoreLabel from the score Int
+        // 1. Set the scoreLabel from the score Int
         // 2. Set the skipButton to disabled
         // 3. call cameraSetup
         // 4. The highscore using the highscore function
@@ -81,10 +81,6 @@ class ViewController: UIViewController {
         // 1. Disable the startButton
         // 2. Enable the skipButton
         // 3. Call nextObject
-        
-        // EXTRA: Implement some kind of times so that a round is for XX seconds, this can be done with Time.scheduledTime,
-        // https://developer.apple.com/documentation/foundation/timer/2091889-scheduledtimer, end the game when the timer runs out,
-        // also add a label to show how much time is remaining.
     }
     
     @IBAction func skip() {
