@@ -205,6 +205,10 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
+    // Read more abput AVCaptureVideoDataOutputSampleBufferDelegate here
+    // https://developer.apple.com/documentation/avfoundation/avcapturevideodataoutputsamplebufferdelegate
+    
+    // This function run whenever a new video frame is written
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
         guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {
             fatalError("Pixel buffer is nil")
